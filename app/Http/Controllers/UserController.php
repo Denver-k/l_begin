@@ -19,6 +19,7 @@ class UserController extends Controller
                 'location'=>'Ukraine'
             ]
         ];
-        return $users;
+        //return $users;
+        return view('admin.users.index', compact('users'));
     }
 }

@@ -14,8 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
-<<<<<<< HEAD
-=======
 
 Route::get('users', ['uses' => 'UserController@index']);
 
@@ -36,4 +34,3 @@ Route::get('users', function () {
     return $users;
 });
 */
->>>>>>> 5931674b8a7c984fdacf17e23e43e97c9e81a45f
