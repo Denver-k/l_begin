@@ -308,6 +308,7 @@
         },
         {
             "name": "laravel/framework",
+<<<<<<< HEAD
             "version": "v5.3.26",
             "source": {
                 "type": "git",
@@ -318,6 +319,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/609bcffd2ce2006925f8304e022288b3da5d23a4",
                 "reference": "609bcffd2ce2006925f8304e022288b3da5d23a4",
+=======
+            "version": "v5.3.25",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "90791f6a9eceebb1731ff7191141083ebb127c31"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/90791f6a9eceebb1731ff7191141083ebb127c31",
+                "reference": "90791f6a9eceebb1731ff7191141083ebb127c31",
+>>>>>>> 5931674b8a7c984fdacf17e23e43e97c9e81a45f
                 "shasum": ""
             },
             "require": {
@@ -432,7 +445,11 @@
                 "framework",
                 "laravel"
             ],
+<<<<<<< HEAD
             "time": "2016-11-30 14:58:38"
+=======
+            "time": "2016-11-29 14:42:22"
+>>>>>>> 5931674b8a7c984fdacf17e23e43e97c9e81a45f
         },
         {
             "name": "league/flysystem",
@@ -1159,6 +1176,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
+<<<<<<< HEAD
             "version": "v3.2.0",
             "source": {
                 "type": "git",
@@ -1169,6 +1187,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/e8f47a327c2f0fd5aa04fa60af2b693006ed7283",
                 "reference": "e8f47a327c2f0fd5aa04fa60af2b693006ed7283",
+=======
+            "version": "v3.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/event-dispatcher.git",
+                "reference": "28b0832b2553ffb80cabef6a7a812ff1e670c0bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/28b0832b2553ffb80cabef6a7a812ff1e670c0bc",
+                "reference": "28b0832b2553ffb80cabef6a7a812ff1e670c0bc",
+>>>>>>> 5931674b8a7c984fdacf17e23e43e97c9e81a45f
                 "shasum": ""
             },
             "require": {
@@ -1188,7 +1218,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "3.2-dev"
+=======
+                    "dev-master": "3.1-dev"
+>>>>>>> 5931674b8a7c984fdacf17e23e43e97c9e81a45f
                 }
             },
             "autoload": {
@@ -1215,7 +1249,11 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2016-10-13 06:29:04"
+=======
+            "time": "2016-10-13 06:28:43"
+>>>>>>> 5931674b8a7c984fdacf17e23e43e97c9e81a45f
         },
         {
             "name": "symfony/finder",
@@ -3343,6 +3381,7 @@
         },
         {
             "name": "symfony/yaml",
+<<<<<<< HEAD
             "version": "v3.2.0",
             "source": {
                 "type": "git",
@@ -3353,11 +3392,24 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/yaml/zipball/f2300ba8fbb002c028710b92e1906e7457410693",
                 "reference": "f2300ba8fbb002c028710b92e1906e7457410693",
+=======
+            "version": "v3.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "9da375317228e54f4ea1b013b30fa47417e84943"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/9da375317228e54f4ea1b013b30fa47417e84943",
+                "reference": "9da375317228e54f4ea1b013b30fa47417e84943",
+>>>>>>> 5931674b8a7c984fdacf17e23e43e97c9e81a45f
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5.9"
             },
+<<<<<<< HEAD
             "require-dev": {
                 "symfony/console": "~2.8|~3.0"
             },
@@ -3368,6 +3420,12 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "3.2-dev"
+=======
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+>>>>>>> 5931674b8a7c984fdacf17e23e43e97c9e81a45f
                 }
             },
             "autoload": {
@@ -3394,7 +3452,11 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2016-11-18 21:17:59"
+=======
+            "time": "2016-11-18 21:05:29"
+>>>>>>> 5931674b8a7c984fdacf17e23e43e97c9e81a45f
         },
         {
             "name": "webmozart/assert",
