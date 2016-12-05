@@ -8,7 +8,10 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    You are logged in!
+                    You are logged in {!! Auth::user()->email /*это обращение на прямую к классу авторизации*/ !!}!
+                    {!! $myname !!}
+                    <h3>{!! $age !!}</h3>
+                    <h3>{!! $auth->name /*это обращение через сервис провайдер к классу авторизации. см. класс сервис провайдер*/ !!}</h3>
                 </div>
             </div>
         </div>

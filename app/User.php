@@ -35,4 +35,10 @@ class User extends Authenticatable
         $this->attributes['password'] = bcrypt($value);
     }
     /*setNameAttribute, setPasswordAttribute это методы Mutators  которые вызываются предворительно перед сохранение в БД, это сетеры и Name, Password это имена полей в БД.*/
+
+    public function getEmailAttribute($value){
+        return strtoupper($value);
+    }
 }
+
+
