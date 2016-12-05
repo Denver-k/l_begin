@@ -26,4 +26,13 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+    
+    public function setNameAttribute($value){
+        $this->attributes['name'] = ucfirst($value);
+    }
+    
+    public function setPasswordAttribute($value){
+        $this->attributes['password'] = bcrypt($value);
+    }
+    /*setNameAttribute, setPasswordAttribute это методы Mutators  которые вызываются предворительно перед сохранение в БД, это сетеры и Name, Password это имена полей в БД.*/
 }

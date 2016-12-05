@@ -17,6 +17,10 @@ Route::get('/', function () {
 
 Route::get('users', ['uses' => 'UserController@index']);
 
+Route::get('users/create',['uses'=>'UserController@create']);
+
+Route::post('users', ['uses'=>'UserController@store']);
+
 /*
 Route::get('users', function () {
     $users = [
@@ -34,3 +38,7 @@ Route::get('users', function () {
     return $users;
 });
 */
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
