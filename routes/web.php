@@ -42,3 +42,7 @@ Route::get('users', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+Route::get('/profile', ['uses' => 'PagesController@profile']);
+
+Route::get('/settings', ['uses' => 'PagesController@settings']);
